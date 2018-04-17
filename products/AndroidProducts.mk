@@ -26,7 +26,7 @@
 # Samsung Exynos family
     PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/gts210ltexx/pa_gts210ltexx.mk \
-    $(LOCAL_DIR)/gts210wifi/pa_gts210wifi.mk
+    $(LOCAL_DIR)/gts210wifi/pa_gts210wifi.mk 
 
 # AOSP
     PRODUCT_MAKEFILES += \
@@ -37,11 +37,16 @@
     $(LOCAL_DIR)/sailfish/pa_sailfish.mk \
     $(LOCAL_DIR)/shamu/pa_shamu.mk
 
+# Xiaomi Devices
+    PRODUCT_MAKEFILES += \
+    $(LOCAL_DIR)/tissot/pa_tissot.mk \
+
 # SONY OpenDevices
 # Loire 8956
     PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/kugo/pa_kugo.mk \
     $(LOCAL_DIR)/suzu/pa_suzu.mk
+
 # Tone 8996
    PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/dora/pa_dora.mk \

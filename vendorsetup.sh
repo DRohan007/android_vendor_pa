@@ -14,6 +14,9 @@ add_lunch_combo pa_zl1-userdebug
 add_lunch_combo pa_gts210ltexx-userdebug
 add_lunch_combo pa_gts210wifi-userdebug
 
+# Xiaomi devices
+add_lunch_combo pa_tissot-userdebug
+
 # AOSP
 add_lunch_combo pa_angler-userdebug
 add_lunch_combo pa_bullhead-userdebug
